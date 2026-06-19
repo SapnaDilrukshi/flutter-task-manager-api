@@ -1,17 +1,95 @@
-# taskmamger
+# Flutter Task Manager API
 
-A new Flutter project.
+A Flutter Task Manager application built to learn and demonstrate REST API integration and CRUD operations.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+### Task Management
 
-A few resources to get you started if this is your first Flutter project:
+* View Tasks
+* Create Tasks
+* Update Tasks
+* Delete Tasks
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### API Integration
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* GET Requests
+* POST Requests
+* PUT Requests
+* DELETE Requests
+
+### Flutter Concepts
+
+* FutureBuilder
+* Async/Await
+* Navigation
+* StatefulWidget
+* JSON Parsing
+* Form Handling
+* Error Handling
+* Loading States
+
+## Project Structure
+
+```text
+lib/
+
+├── models/
+│   └── task_model.dart
+
+├── services/
+│   └── api_service.dart
+
+├── screens/
+│   ├── task_list_screen.dart
+│   ├── add_task_screen.dart
+│   └── edit_task_screen.dart
+
+├── utils/
+    ├── colors.dart
+└── main.dart
+```
+
+## Technologies Used
+
+* Flutter 3.44.0
+* Dart 3.12.0
+* HTTP Package
+* REST API
+* JSONPlaceholder API
+
+## Learning Outcomes
+
+This project helped me understand:
+
+* API Integration in Flutter
+* CRUD Operations
+* JSON Serialization
+* Navigation Between Screens
+* State Management Basics
+* Error Handling
+* Asynchronous Programming
+
+## Screens
+
+* Task List Screen
+* Add Task Screen
+* Edit Task Screen
+* Delete Confirmation Dialog
+
+## Future Improvements
+
+* User Authentication
+* Backend
+* Riverpod State Management
+* Search & Filtering
+* Pagination
+* Dark Mode
+* Clean Architecture
+
+## Author
+
+Sapna Dilrukshi
+
+GitHub:
+https://github.com/SapnaDilrukshi
